@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta content="width=device-width" name="viewport">
-    <meta content="Scottish bed and breakfast website" name="description">
-    <meta content="index, follow" name="robots">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Scottish bed and breakfast website">
+    <meta name="robots" content="index, follow">
     <title>SCT B&B - Contact us</title>
     <link href="/Assets/style.css" rel="stylesheet" type="text/css"/>
-    <script , defer src="/Assets/script.js"></script>
+    <script src="/Assets/script.js" defer></script>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
         <a href="/sitemap.html">Site map</a>
         <a class="active">Contact us</a>
         <div class="dropdown">
-            <button class="dropbtn">Our Rooms
+            <button class="dropbtn">Rooms
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
@@ -30,7 +30,10 @@
                 <a href="/Rooms/Glasgow.html">Glasgow</a>
             </div>
         </div>
-        <a class="icon" href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+        <a onclick="window.print();" class="dontPrint">
+            Print this page
+        </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
 </nav>
 
@@ -42,17 +45,19 @@
 </div>
 
 <div class="contacts">
-    <p>If you have any problems with the site please contact us here: <a href=mailto:problems@SCTB&B.co.uk id="links">probems@SCTB&B.co.uk</a>
+    <p>If you have any problems with the site please contact us here: <a class="links"
+                                                                         href=mailto:problems@SCTB&B.co.uk>probems@SCTB&B.co.uk</a>
     </p>
-    <p>If you have any questions about the rooms please contact us here: <a href=mailto:probems@SCTB&B.co.uk id="links">enquires@SCTB&B.co.uk</a>
+    <p>If you have any questions about the rooms please contact us here: <a class="links"
+                                                                            href=mailto:probems@SCTB&B.co.uk>enquires@SCTB&B.co.uk</a>
     </p>
-    <p>If you would like to book a room please contact us here: <a href=mailto:probems@SCTB&B.co.uk id="links">booking@SCTB&B.co.uk</a>
+    <p>If you would like to book a room please contact us here: <a class="links" href=mailto:probems@SCTB&B.co.uk>booking@SCTB&B.co.uk</a>
     </p>
-    <p>If you would prefer to call us please phone <a href="tel:0800-800150" id="links"> 0800 800150</a>.</p>
+    <p>If you would prefer to call us please phone <a class="links" href="tel:0800-800150"> 0800 800150</a>.</p>
 </div>
 
 <div class="map">
-    <img alt="a phone" class="image" src="/Assets/phone">
+    <img class="image" src="/Assets/phone" alt="a phone">
 </div>
 
 </body>
